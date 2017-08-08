@@ -184,7 +184,7 @@
             // オプションOToolStripMenuItem
             // 
             this.オプションOToolStripMenuItem.Name = "オプションOToolStripMenuItem";
-            this.オプションOToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.オプションOToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.オプションOToolStripMenuItem.Text = "オプション (&O)";
             this.オプションOToolStripMenuItem.Click += new System.EventHandler(this.オプションOToolStripMenuItem_Click);
             // 
