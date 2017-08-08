@@ -135,7 +135,7 @@ namespace Yopon
             {
                 var header = new Header();
                 var data = new ByteArray();
-                data.WriteUTF("てすと");
+                data.WriteUTF("test");
                 header.CommandId = ChatMethod.ALERT_RESULT;
                 header.Body = data.Bytes;
                 proxy.Recv(header.ToArray());
