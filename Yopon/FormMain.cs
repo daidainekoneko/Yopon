@@ -151,7 +151,7 @@ namespace Yopon
             {
                 var header = new Header();
                 var data = new ByteArray();
-                data.WriteUTF("てすと");
+                data.WriteUTF("test");
                 data.WriteUnsignedInt(0x00FFFFFF);
                 data.WriteUnsignedInt(0x00FFFFFF);
                 data.Encrypt(chat.Key);
